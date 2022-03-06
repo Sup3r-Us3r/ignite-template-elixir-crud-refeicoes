@@ -1,0 +1,155 @@
+{
+  "excluded": [],
+  "failed": [],
+  "invalid": [],
+  "passed": [
+    {
+      "describe": "changeset/1",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal/exmeal_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.MealTest",
+      "test": "test changeset/1 when all params are valid, returns a valid changeset"
+    },
+    {
+      "describe": "Create Meal",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal/meals/create_test.exs",
+      "line": 22,
+      "module": "Elixir.Exmeal.Meals.CreateTest",
+      "test": "test Create Meal when there are invalid params, returns an error"
+    },
+    {
+      "describe": "Create Meal",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal/meals/create_test.exs",
+      "line": 5,
+      "module": "Elixir.Exmeal.Meals.CreateTest",
+      "test": "test Create Meal when all params are valid, returns the meal"
+    },
+    {
+      "describe": "Get Meal",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal/meals/get_test.exs",
+      "line": 25,
+      "module": "Elixir.Exmeal.Meals.GetTest",
+      "test": "test Get Meal when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "Get Meal",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal/meals/get_test.exs",
+      "line": 5,
+      "module": "Elixir.Exmeal.Meals.GetTest",
+      "test": "test Get Meal when a valid id is given, returns the meal"
+    },
+    {
+      "describe": "Delete Meal",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal/meals/delete_test.exs",
+      "line": 25,
+      "module": "Elixir.Exmeal.Meals.DeleteTest",
+      "test": "test Delete Meal when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "Delete Meal",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal/meals/delete_test.exs",
+      "line": 5,
+      "module": "Elixir.Exmeal.Meals.DeleteTest",
+      "test": "test Delete Meal when a valid id is given, returns the meal"
+    },
+    {
+      "describe": "Update Meal",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal/meals/update_test.exs",
+      "line": 24,
+      "module": "Elixir.Exmeal.Meals.UpdateTest",
+      "test": "test Update Meal when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "Update Meal",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal/meals/update_test.exs",
+      "line": 5,
+      "module": "Elixir.Exmeal.Meals.UpdateTest",
+      "test": "test Update Meal when a valid id is given, returns the meal"
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 95,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test update/2 when not exist id, return an error"
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 58,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test delete/2 when id not exist, return an error"
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 43,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test delete/2 when id exist, delete the meal"
+    },
+    {
+      "describe": "create/2",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 5,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test create/2 when all params are valid, creates a meal"
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 73,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test update/2 when id exist, update the meal"
+    },
+    {
+      "describe": "create/2",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 26,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test create/2 when there are invalid params, returns an error"
+    },
+    {
+      "describe": "get/2",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 130,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test get/2 when id not exist, return an error"
+    },
+    {
+      "describe": "get/2",
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 108,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test get/2 when id exist, return the meal"
+    },
+    {
+      "describe": null,
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal_web/views/meals_test.exs",
+      "line": 29,
+      "module": "Elixir.ExmealWeb.MealsViewTest",
+      "test": "test render meal.json"
+    },
+    {
+      "describe": null,
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal_web/views/meals_test.exs",
+      "line": 10,
+      "module": "Elixir.ExmealWeb.MealsViewTest",
+      "test": "test render create.json"
+    },
+    {
+      "describe": null,
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal_web/views/error_view_test.exs",
+      "line": 11,
+      "module": "Elixir.ExmealWeb.ErrorViewTest",
+      "test": "test renders 500.json"
+    },
+    {
+      "describe": null,
+      "file": "/home/ghost/Public/Ignite/Elixir/ignite-template-elixir-crud-refeicoes/test/exmeal_web/views/error_view_test.exs",
+      "line": 7,
+      "module": "Elixir.ExmealWeb.ErrorViewTest",
+      "test": "test renders 404.json"
+    }
+  ],
+  "skiped": []
+}
